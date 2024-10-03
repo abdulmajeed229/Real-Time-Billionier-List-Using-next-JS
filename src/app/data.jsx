@@ -7,6 +7,7 @@ function Data() {
         fetchBillionaires();
     }, []);
 
+    
     const url = 'https://forbes400.onrender.com/api/forbes400/';
 
     const fetchBillionaires = async () => {
